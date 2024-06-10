@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    /* Define a fonte padrão do site */
+    font-family: "Open Sans", Arial, sans-serif;
+    
+
+    background: linear-gradient(135deg, rgb(158, 233, 226), rgb(248, 233, 228),yellow);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0px 4rem;
+   
+}
+
+select,
+input {
+    font-family: inherit;
+}
+
+.inicio{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 15px;
+
+    
+    
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+    
+}
+
+p{
+    font-size: 60px;
+}
+
+.container {
+   margin: 30px auto;
+   display: flex;
+   padding: 20px;
+   justify-content: space-around;
+   
+}
+
+input {
+    width: 25%;
+    height: 35px;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 2.5rem;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.buttom{
+    border: 0;
+    padding: 10px;
+    border-radius: 2rem;
+    border-width: 2rem;
+    background-color: gold;
+    cursor: pointer;
+
+}
+
+table{
+    width: 100%;
+
+}
+
+.lista {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+tr:first-child{
+    box-shadow: 0px 1px rgba(0, 0, 0, 1);   
+      
+}
+
+tr{
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.125);  
+    padding: 5px; 
+    height: 48px;
+}
+
+.buttonEdit{
+    color: rgb(0, 102, 255);
+    transition: 0.25s color cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.buttonEdit:hover{
+    color: rgb(255, 0, 212);
+    transition: 0.25s color cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.buttonEdit:active{
+    color: chartreuse;
+   
+}
+
+.buttonTrash{
+    color: red;
+    transition: 0.25s color cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.buttonTrash:hover{
+    color: rgb(217, 255, 0);
+    transition: 0.25s color cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.buttonTrash:active{
+  color: peru;
+}
+
+.btnEditar, 
+.btnExcluir {
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 2.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.btnEditar {
+    background-image: url(cerrissete.gif);
+    background-size: contain;
+    color: white;
+}
+
